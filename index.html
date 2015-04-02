@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Count to percent</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/countToPercent.js"></script>
+	<script type="text/javascript">
+	
+		$(function(){
+		
+			$(".voting-main").countToPercent({
+				degree : 1
+			});
+			
+		});
+		
+	</script>
+</head>
+<body>
+	<div class="voting-main">
+		<h2>First structure</h2>
+		<h3>First</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">100</div>
+		</div>
+		<h3>Second</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">70</div>
+		</div>
+		<h3>Third</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">20</div>
+		</div>
+		<h3>Fourth</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">33</div>
+		</div>
+	</div>
+	<div class="voting-main">
+		<h2>Second structure</h2>
+		<h3>First</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">1000</div>
+		</div>
+		<h3>Second</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">70</div>
+		</div>
+		<h3>Third</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">20</div>
+		</div>
+		<h3>Fourth</h3>
+		<div class="voting-total-box">
+			<div class="voting-total">33</div>
+		</div>
+	</div>
+</body>
+</html>
